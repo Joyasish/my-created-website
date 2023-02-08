@@ -142,4 +142,21 @@ font-size: 90px;
         display: flex;
         width: 100%;
         height: 50vh;
-    }
+    
+   
+.appointment_container{
+            display: flex;
+            /* display: inline; */
+            background-color: #e90a0a;
+        }
+   
+    .appointment_container_left{
+    display: flex;
+   }     
+   .phone-icons{
+    width: 80px;
+   } 
+   .appointment_container_right{
+    display: flex;
+   }
+
