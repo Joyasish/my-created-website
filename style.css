@@ -2,6 +2,7 @@
     margin: 0px ;
     padding: 0px ;
 }
+/* navigation styles */
 .nav_container{
     display: flex;
     padding: 20px;
@@ -17,3 +18,41 @@
    font-size: 30px;
    font-weight: 300;
 }
+/* banner styles */
+.banner_container{
+    height: 100vh;
+    align-items: center;
+    background-image: url("./asset/image/background.jpg");
+    background-repeat: no-repeat ;
+    text-align:center ;
+    justify-content: center;
+    display: flex;
+}
+.banner_title{
+font-size: 90px;
+}
+.primary{
+    color:#e90a0a ;
+}
+.banner_description{
+    font-size: 20px;
+    color: aliceblue;
+    text-align:center ;
+    width: 50%;
+    margin: auto;
+}
+/* button styles */
+.btn{
+    padding: 10px 30px;
+    font: size 25px; 
+    margin-right: 10px;
+    border: none;
+}
+.btn_discover{
+    background-color: #e90a0a;
+    color: antiquewhite;
+    }
+.btn_hire{
+    background-color:aliceblue ;
+    color: black;
+    }
