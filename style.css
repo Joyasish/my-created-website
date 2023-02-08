@@ -1,0 +1,19 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+.nav_container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #D5D2D2;
+}
+.menu_items{
+    display: flex; 
+}
+.menu_item{
+   list-style: none;
+   margin-right: 40px;
+   font-size: 30px;
+   font-weight: 300;
+}
